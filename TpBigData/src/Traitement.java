@@ -24,7 +24,6 @@ public class Traitement {
 		for(int i=0;i<tem.size();i++){
 			 result=tem.get(i);	
 			 String values[]=result.split("	");
-			 
 			 System.out.println(values[i]);
 		}
 		
