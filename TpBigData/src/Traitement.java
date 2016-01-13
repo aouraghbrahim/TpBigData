@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -8,9 +9,10 @@ public class Traitement {
 
 	public static void main(String[] args) {
 	
+		File f = new File("C:\Users\b.aouragh.13\Desktop\MovieLens\movies.dat");
 		FileInputStream fstream = null;
 		try {
-			fstream = new FileInputStream("movies.dat");
+			fstream = new FileInputStream("f");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
